@@ -1,3 +1,28 @@
+## fadecandy_ros (noetic) - 0.1.1-2
+
+The packages in the `fadecandy_ros` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic --track=noetic fadecandy_ros` on `Wed, 03 Jun 2020 17:19:33 -0000`
+
+These packages were released:
+- `fadecandy_driver`
+- `fadecandy_msgs`
+
+Version of package(s) in repository `fadecandy_ros`:
+
+- upstream repository: https://github.com/iron-ox/fadecandy_ros.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.1.1-1`
+- new version: `0.1.1-2`
+
+Versions of tools used:
+
+- bloom version: `0.9.7`
+- catkin_pkg version: `0.4.20`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.2`
+- vcstools version: `0.1.42`
+
+
 ## fadecandy_ros (noetic) - 0.1.1-1
 
 The packages in the `fadecandy_ros` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --ros-distro noetic --track=noetic fadecandy_ros` on `Wed, 03 Jun 2020 17:13:23 -0000`
