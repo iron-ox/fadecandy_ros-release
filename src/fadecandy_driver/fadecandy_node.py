@@ -11,12 +11,14 @@ class FadecandyNode:
         while not rospy.is_shutdown():
             try:
                 self._driver = FadecandyDriver()
-            except IOError:
-                rospy.logwarn_once('Failed to connect to Fadecandy device; will retry every second')
+            except IOError as e:
+                rospy.logwarn_once('Failed to connect to Fadecandy device: %s; will retry every second', e)
             else:
                 rospy.loginfo('Connected to Fadecandy device')
                 break
             connection_retry_rate.sleep()
+        else:
+            return
 
         self._set_leds_sub = rospy.Subscriber('set_leds', LEDArray, self._set_leds)
 
