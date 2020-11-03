@@ -1,1 +1,1 @@
-{"base": "bc964de", "parent": "debian/noetic/fadecandy_driver", "previous": "05b08e2", "trim": "", "trimbase": ""}
+{"trim": "", "base": "3267d29", "trimbase": "", "parent": "debian/noetic/fadecandy_driver", "previous": "3758b6e"}
