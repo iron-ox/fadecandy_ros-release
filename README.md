@@ -1,3 +1,3 @@
-# Fadecandy msgs
+# Fadecandy ROS
 
-ROS msgs for fadecandy LED controllers
+ROS interface for controlling LEDS via a fadecandy board.
