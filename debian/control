@@ -1,0 +1,12 @@
+Source: ros-melodic-fadecandy-driver
+Section: misc
+Priority: optional
+Maintainer: Rein Appeldoorn <reinzor@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libusb-1.0-0-dev, ros-melodic-catkin, ros-melodic-diagnostic-updater, ros-melodic-fadecandy-msgs, ros-melodic-roscpp, ros-melodic-rospy
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-fadecandy-driver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libusb-1.0-0-dev, ros-melodic-diagnostic-updater, ros-melodic-fadecandy-msgs, ros-melodic-roscpp
+Description: ROS driver for fadecandy LED controllers
