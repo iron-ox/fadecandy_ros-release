@@ -1,5 +1,3 @@
-# Fadecandy ROS
+# Fadecandy msgs
 
-[![](https://github.com/iron-ox/fadecandy_ros/workflows/CI/badge.svg)](https://github.com/iron-ox/fadecandy_ros/actions)
-
-ROS interface for controlling LEDS via a fadecandy board.
+ROS msgs for fadecandy LED controllers
