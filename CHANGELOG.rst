@@ -2,6 +2,9 @@
 Changelog for package fadecandy_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.2 (2021-05-17)
+------------------
+
 0.2.1 (2021-04-20)
 ------------------
 * chore(package.xml): Update maintainers
